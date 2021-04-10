@@ -1,0 +1,9 @@
+{
+"paypal_url" : "https://www.sandbox.paypal.com/cgi-bin/webscr",
+"paypal_id" : "sebastien.binda@hotmail.com",
+"main_site_link" : "http://localhost/shared/sbinda/EPhoto2",
+"private_access_link" : "/EPhoto2/index.html",
+"google_analitycs_id" : "xxxxxxx",
+"theme" : "darkpurple-theme",
+"image_link_php" : false
+}

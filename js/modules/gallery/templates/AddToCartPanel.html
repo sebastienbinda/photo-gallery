@@ -1,0 +1,22 @@
+<div id="addToCartPanel">
+
+	<div class="addToCartPanelInfo">{{labels.addtocartpanelinfo}}</div>
+	
+	<div class="add-to-cart-img"><img style="width:{{image.thumb_width}}px;height:{{image.thumb_height}}px;" src="{{imageLink}}" title='{{image.name}}'/></div>
+
+	<div id="format-zone">
+	{{labels.formatinfo}}
+	<select id="product-selection">
+		{{#each products}}
+		<option value="{{id}}">{{name}} - {{price}} {{../labels.money}}</option>
+		{{/each}}
+	</select>
+	</div>
+	<div id="quantity-zone">
+		{{labels.quantiteinfo}}
+		<button id="quantity-minus"><i class="icon-minus-sign"></i></button>&nbsp;<input id="select-quantity" type="text" value="{{defaultQuantity}}">&nbsp;<button id="quantity-plus"><i class="icon-plus-sign"></i></button>
+	</div>
+	<button class="add-to-cart"><i class="icon-shopping-cart"></i>&nbsp;{{labels.addtocartbutton}}</button>
+	<button class="hidden add-to-cart-close"><i class="icon-remove"></i>&nbsp;{{labels.addtocartClosebutton}}</button>
+	<div id="right-click-menu" class="hidden right-click-menu">{{labels.imagecopyright}}</div>
+</div>

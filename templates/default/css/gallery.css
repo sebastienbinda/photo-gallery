@@ -1,0 +1,30 @@
+.img-list .filename {
+	background-color: white;
+	border: solid 1px Black;
+	color: #ff8b84;
+}
+
+.add-to-cart {
+	color: black !important;
+}
+
+.add-to-cart .ui-button-text{
+	background-color: #FFBE55;
+}
+
+.add-to-cart .ui-button-text:hover{
+	background-color: #FFDBA2;
+}
+
+.add-to-cart:hover{
+	border-color: #FFBE55 !important;
+	-moz-box-shadow: 10px 10px 10px 0px #656565;
+	-webkit-box-shadow: 10px 10px 10px 0px #656565;
+	-o-box-shadow: 10px 10px 10px 0px #656565;
+	box-shadow: 10px 10px 10px 0px #656565;
+}
+
+.directory-name {
+	background-color : #dcd9de;
+	color : Black;
+}

@@ -1,0 +1,184 @@
+ .second-color {
+ 	color : #FFB273;
+ }
+ 
+ body {
+ 	background-color: #4d4d4d;
+ 	color : White;
+ }
+  
+ body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+ }
+ 
+ h1 {
+ 	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 15px;
+ }
+ 
+
+ #head-container {
+	position: fixed;
+	width: 100%; 
+	height : 125px;
+	font-size: 1em;
+}
+
+#head-container a .logo{
+	padding-left: 70px;
+	padding-right: 150px;
+	font-family: Allura, sans-serif;
+	line-height: 1;
+	text-decoration: none;
+}
+
+#head-container .logo{
+	float : left;
+	padding-left: 70px;
+	padding-top: 33px;
+}
+#head-container .logo img {
+	width: 240px;
+	height: 70px;
+	border: 0;
+}
+
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	/* pour IE */
+	_position: absolute;
+	height: 50px;
+	vertical-align: middle;
+	top: expression(body.scrollBottom + 100 + "px")
+}
+
+#wrapper {
+	width: 100%;
+	position: fixed;
+	top: 150px;
+	bottom: 50px;
+	overflow: auto;
+}
+
+#content {
+	margin: 0px auto;
+	width: 90%;
+}
+
+.error-message {
+	color: Red;
+	text-align: center;
+	display: inline-block;
+	width: 100%
+}
+
+.info-message {
+	font-family: sans-serif;
+}
+
+.validate-message {
+	color: Green;
+}
+
+.fieldrequired {
+	background-color: #ff7373;
+}
+
+.small-loading {
+	background-image: url("../img/loading.gif");
+	background-image: left;
+	background-size:20px 20px;
+	background-position: 15px 50%;
+	padding: 10px 0px 10px 50px;
+	background-color : White;
+	font-size: 1.4em;
+	width: 150px;
+	height: 60px;
+	z-index : 101;
+	position : fixed;
+    top: 15px; left: 0; bottom: 0; right: 0;
+    margin : auto;
+	background-repeat: no-repeat;
+	border : 1px solid Black;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.inner-loading {
+	position : relative !important;
+	top: 150px !important;
+}
+
+.loading {
+	background-image: url("../img/loading.gif");
+	background-image: left;
+	background-size:20px 20px;
+	background-position: 15px 50%;
+	background-color : White;
+	padding: 10px 0px 10px 50px;
+	color : Black;
+	font-size: 1.4em;
+	width: 250px;
+	height: 55px;
+	z-index : 101;
+	position : fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin : auto;
+	background-repeat: no-repeat;
+	border : 1px solid Black;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.loading-filter {
+	z-index : 100;
+	opacity: 0.4;
+}
+
+#content-loading {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+
+.hidden {
+	display : none;
+}
+
+.right-click-menu {
+	z-index:1000;
+    position: absolute;
+    background-color: White;
+    border: 2px solid Black;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding : 2px 4px;
+    color : Black;
+}
+
+.boutonCentre {
+	text-align: center;
+}
+
+.full-size-button {
+	width : 100%;
+}

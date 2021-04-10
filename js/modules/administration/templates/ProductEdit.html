@@ -1,0 +1,51 @@
+<div id="user-edit">
+	<table>
+		<tr>
+			<td class="label">{{labels.name}}</td>
+			<td class="value"><input type="text" id="name" value="{{product.name}}"></td>
+		</tr>
+		<tr>
+			<td class="label">{{labels.price}}</td>
+			<td class="value"><input type="text" id="price" value="{{product.price}}"></td>
+		</tr>
+		<tr>
+			<td class="label">{{labels.type}}</td>
+			<td class="value">
+				<select id="type">
+					<option value='standard'>{{labels.typeStandard}}</option>
+					<option value='download'>{{labels.typeDownload}}</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="label">{{labels.weight}}</td>
+			<td class="value"><input type="text" id="weight" value="{{product.weight}}"></td>
+		</tr>
+		<tr>
+			<td class="label">{{labels.shippingType}}</td>
+			<td class="value">
+			<select multiple="multiple" id="shipping_type" name="shipping_type" style="width:150px">
+					{{#each shipping_types}}
+						{{#if selected}}
+							<option selected="selected" value="{{name}}">{{name}}</option>
+						{{else}}
+							<option value="{{name}}">{{name}}</option>
+						{{/if}}
+					{{/each}}
+				</select>
+			
+			</td>
+		</tr>
+		<tr>
+			<td class="label">{{labels.description}}</td>
+			<td class="value"><textarea id="description" rows="4" cols="50">{{product.description}}</textarea></td>
+		</tr>
+		<tr>
+			<td class="label">{{labels.deliveryDirectory}}</td>
+			<td class="value"><input type="text" id="delivery_directory" value="{{product.delivery_directory}}"></td>
+		</tr>
+	</table>
+	<button id="save-product"><i class="fa fa-save">&nbsp;{{labels.saveButton}}</i></button>
+	<button id="cancel-product"><i class="fa fa-ban">&nbsp;{{labels.cancelButton}}</i></button>
+</div>
+<div id="loading" class="loading hidden">{{labels.loading}}</div>

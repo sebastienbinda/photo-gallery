@@ -1,0 +1,9 @@
+{
+"paypal_url" : "https://www.paypal.com/cgi-bin/webscr",
+"paypal_id" : "",
+"main_site_link" : "",
+"private_access_link" : "/EPhoto/index.html",
+"google_analitycs_id" : "",
+"theme" : "darkpurple-theme",
+"image_link_php" : false
+}

@@ -1,0 +1,9 @@
+@media screen and (max-device-width: 780px) {
+	#cart-item-view #quantity-minus, #cart-item-view #quantity-plus {
+		display : none;
+	}
+	
+	#cartInfo {
+		top: 20px;
+	}
+}

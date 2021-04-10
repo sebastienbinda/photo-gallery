@@ -1,0 +1,17 @@
+<div id="user-edit">
+	<table>
+		<tr>
+			<td class="label">{{labels.status}}</td>
+			<td class="value">
+			<select id="state">
+				{{#each states}}
+					<option value="{{id}}">{{state}}</option>
+				{{/each}}
+			</select>
+			</td>
+		</tr>
+	</table>
+	<button id="save-order"><i class="fa fa-save">&nbsp;{{labels.saveButton}}</i></button>
+	<button id="cancel-order"><i class="fa fa-ban">&nbsp;{{labels.cancelButton}}</i></button>
+</div>
+<div id="loading" class="loading hidden">{{labels.loading}}</div>

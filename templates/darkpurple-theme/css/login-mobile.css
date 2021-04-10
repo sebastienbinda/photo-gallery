@@ -1,0 +1,12 @@
+@media (max-width: 780px) {
+	.gallery_access:hover {
+		color : #FFB273;
+		border: 2px solid #FFB273
+	}
+
+	.gallery_access {
+		background-color : #2C2C2C;
+		color : White;
+		border: 2px solid White
+	}
+}

@@ -1,0 +1,18 @@
+<div id="picture">
+<div class="picture-only">
+	<div id="thumb-picture" class="image" style="width:{{image.thumb_width}}px;height:{{image.thumb_height}}px;">
+		<img style="width:{{image.thumb_width}}px;height:{{image.thumb_height}}px;" src="{{imageLink}}" title='{{image.name}}'/>
+		<div class="image-filter" style="width:{{image.thumb_width}}px;height:{{image.thumb_height}}px;">
+			<span class="image-filter-text">{{labels.fullsizelabel}}</span>
+		</div>
+<!-- 		<div class="image-copy-right-filter" style="width:{{image.thumb_width}}px;height:{{image.thumb_height}}px;">&nbsp;</div> -->
+	</div>
+</div>
+{{#if displaynames}}
+<div class="filename">
+	<span title="{{image.name}}">{{image.name}}</span>
+</div>
+{{/if}}
+<button id="pictureAddToCartButton" class="add-to-cart"><i class="icon-shopping-cart"></i>&nbsp{{labels.addtocartbutton}}</button>
+</div>
+<div id="right-click-menu" class="hidden">{{labels.imagecopyright}}</div>

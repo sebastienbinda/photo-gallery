@@ -1,0 +1,8 @@
+RedirectMatch 403 ^.*/php$
+RedirectMatch 403 ^.*/php/$
+RedirectMatch 403 ^.*/php/requests$
+RedirectMatch 403 ^.*/php/requests/$
+RedirectMatch 403 ^.*/php/requests/user$
+RedirectMatch 403 ^.*/php/requests/user/$
+RedirectMatch 403 ^.*/php/requests/admin$
+RedirectMatch 403 ^.*/php/requests/admin/$

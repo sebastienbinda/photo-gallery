@@ -1,0 +1,24 @@
+
+<div id="loginbox">
+		<div class="login-private-access-title">
+			{{{privateAccessTitle}}}
+		</div>
+		<div class="login-info">
+			{{{loginInformations}}}
+		</div>
+		<span class="login-error"></span>
+		{{#if passwordEnable}}
+			<div class="label">{{loginLabel}}</div>
+		{{else}}
+			<div class="label">{{clientCodeLabel}}</div>
+		{{/if}}
+		<input id="login" type="text" name="login" class="value"/><br>
+		{{#if passwordEnable}}
+			<div class="label">{{passwordLabel}}</div><input id="password" type="password" name="pwd" class="value"/><br>
+		{{else}}
+			<div id="passwordField" class="hidden">
+				<span id="passwordField" class="label">{{passwordLabel}}</span><input id="password" type="password" name="pwd" class="value"/><br>
+			</div>
+		{{/if}}
+		<input type="button" value="{{loginButtonLabel}}"/>
+</div>

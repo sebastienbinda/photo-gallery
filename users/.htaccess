@@ -1,0 +1,7 @@
+RedirectMatch 403 ^.*/users/.*/archive/$
+RedirectMatch 403 ^.*/users/.*/archive$
+RedirectMatch 403 ^.*/users/.*/downloads$
+RedirectMatch 403 ^.*/users/.*/downloads/$
+RedirectMatch 403 ^.*/users$
+RedirectMatch 403 ^.*/users/$
+RedirectMatch 403 ^.*/users/[^\/]*/$

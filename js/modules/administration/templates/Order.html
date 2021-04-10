@@ -1,0 +1,13 @@
+<td>{{order.id}}</td>
+<td>{{order.username}}</td>
+<td>{{order.useremail}}</td>
+<td>{{order.date}}</td>
+<td>{{order.price}}&nbsp;{{labels.money}}</td>
+<td><a href="{{order.downloadfile}}">{{order.downloadfile}}</a></td>
+<td>{{orderstate_label}}</td>
+<td>
+	<div class="order-actions">
+		<button id="order-edit" title="{{labels.editaction}}"><i class="icon-edit"></i></button>
+		<button id="order-delete" title="{{labels.deleteaction}}"><i class="icon-trash"></i></button>
+	</div>
+</td>

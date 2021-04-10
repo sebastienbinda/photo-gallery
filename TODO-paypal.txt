@@ -1,0 +1,11 @@
+1. Configurer l'IPN vers l'adresse <host>/php/requests/user/paypalIpn.php
+Mon compte -> Preferences -> Préférences de notification instantanée de paiement
+
+2. Configurer la redirection après paiement vers le site <host>/paypal-redirect.html
+Mon compte -> Preferences -> PayPal Intégral et Paiement express PayPal -> 
+
+3. Augementer la taille de la variable execution_time de php.ini (0=unlimited). Ceci afin de permettre la création des archives zip.
+
+4. Configurer le fichier php/conf/app.conf
+
+5 - Configurer le fichier js/conf/app.configuration.js

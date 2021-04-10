@@ -1,0 +1,112 @@
+[2015-06-27 14:18:03.296667] [INFO] Logged in as test
+[2015-06-27 14:18:09.960098] [INFO] Recherche des photos en BD
+[2015-06-27 14:18:10.012701] [INFO] Fin Recherche des photos en BD
+[2015-06-27 14:18:21.750410] [INFO] Recherche des photos en BD
+[2015-06-27 14:18:21.789011] [INFO] Fin Recherche des photos en BD
+[2015-06-27 14:18:27.060929] [INFO] Recherche des photos en BD
+[2015-06-27 14:18:27.081528] [INFO] Fin Recherche des photos en BD
+[2015-06-27 14:18:38.499887] [INFO] Recherche des photos en BD
+[2015-06-27 14:18:38.520488] [INFO] Fin Recherche des photos en BD
+[2015-06-27 14:19:08.007554] [INFO] Recherche des photos en BD
+[2015-06-27 14:19:08.028153] [INFO] Fin Recherche des photos en BD
+[2015-06-27 14:26:32.158900] [INFO] Logged in as test
+[2015-06-27 14:26:35.580532] [INFO] Recherche des photos sur disk
+[2015-06-27 14:26:37.468769] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:26:47.669063] [INFO] Recherche des photos sur disk
+[2015-06-27 14:26:56.681335] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:29:15.211205] [INFO] Recherche des photos sur disk
+[2015-06-27 14:29:17.194677] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:31:33.780052] [INFO] Recherche des photos sur disk
+[2015-06-27 14:31:35.799521] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:34:21.138456] [INFO] Recherche des photos sur disk
+[2015-06-27 14:34:22.274279] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:34:30.031183] [INFO] Recherche des photos sur disk
+[2015-06-27 14:34:37.325732] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:34:44.034116] [INFO] Recherche des photos sur disk
+[2015-06-27 14:34:51.211203] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:35:27.455537] [INFO] Recherche des photos sur disk
+[2015-06-27 14:35:45.301918] [INFO] Recherche des photos sur disk
+[2015-06-27 14:35:46.435547] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:36:25.614366] [INFO] Recherche des photos sur disk
+[2015-06-27 14:36:28.068393] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:36:37.112922] [INFO] Recherche des photos sur disk
+[2015-06-27 14:36:38.204747] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:36:45.054065] [INFO] Recherche des photos sur disk
+[2015-06-27 14:36:46.123682] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:37:01.318839] [INFO] Recherche des photos sur disk
+[2015-06-27 14:37:02.385257] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:37:13.151053] [INFO] Recherche des photos sur disk
+[2015-06-27 14:37:14.221878] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:37:23.810420] [INFO] Recherche des photos sur disk
+[2015-06-27 14:37:24.879839] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:38:48.027220] [INFO] Recherche des photos sur disk
+[2015-06-27 14:38:49.174474] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:39:56.694556] [INFO] Recherche des photos sur disk
+[2015-06-27 14:39:57.756974] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:40:09.297344] [INFO] Recherche des photos sur disk
+[2015-06-27 14:40:10.395963] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 14:44:16.733520] [INFO] Logged in as admin
+[2015-06-27 14:44:21.312170] [INFO] Start indexing pictures for user test
+[2015-06-27 14:44:21.312170] [INFO] Deleting old index for user test
+[2015-06-27 14:44:21.475373] [INFO] Deleting old index for user test OK !
+[2015-06-27 14:45:27.305002] [INFO] End indexing pictures for user test OK ! . Nb pictures indexed : 4998
+[2015-06-27 14:45:32.678886] [INFO] Logged in as test
+[2015-06-27 14:45:37.638122] [INFO] Recherche des photos en BD
+[2015-06-27 14:45:37.691323] [INFO] Fin Recherche des photos en BD
+[2015-06-27 14:48:06.763967] [INFO] Recherche des photos en BD
+[2015-06-27 14:48:06.790568] [INFO] Fin Recherche des photos en BD
+[2015-06-27 14:51:30.244080] [INFO] Logged in as admin
+[2015-06-27 14:51:33.534332] [INFO] Start indexing pictures for user test
+[2015-06-27 14:51:33.534332] [INFO] Deleting old index for user test
+[2015-06-27 14:51:33.552932] [INFO] Deleting old index for user test OK !
+[2015-06-27 14:52:38.081474] [INFO] End indexing pictures for user test OK ! . Nb pictures indexed : 4998
+[2015-06-27 14:52:43.816353] [INFO] Logged in as test
+[2015-06-27 14:52:48.471988] [INFO] Recherche des photos en BD
+[2015-06-27 14:52:48.523992] [INFO] Fin Recherche des photos en BD
+[2015-06-27 14:52:53.348460] [INFO] Recherche des photos en BD
+[2015-06-27 14:52:53.387062] [INFO] Fin Recherche des photos en BD
+[2015-06-27 14:55:36.024491] [INFO] Recherche des photos en BD
+[2015-06-27 14:55:36.063091] [INFO] Fin Recherche des photos en BD
+[2015-06-27 14:55:45.410681] [INFO] Recherche des photos en BD
+[2015-06-27 14:55:45.449282] [INFO] Fin Recherche des photos en BD
+[2015-06-27 15:40:35.672230] [INFO] Logged in as test
+[2015-06-27 15:41:16.185317] [INFO] Logged in as test
+[2015-06-27 15:42:02.812020] [INFO] Logged in as seb
+[2015-06-27 15:42:15.428183] [INFO] Recherche des photos sur disk
+[2015-06-27 15:42:15.431184] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:43:48.815628] [INFO] Recherche des photos sur disk
+[2015-06-27 15:43:48.815628] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:45:36.239938] [INFO] Recherche des photos sur disk
+[2015-06-27 15:45:36.240938] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:47:14.913830] [INFO] Recherche des photos sur disk
+[2015-06-27 15:47:14.914829] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:47:32.108021] [INFO] Recherche des photos sur disk
+[2015-06-27 15:47:32.111021] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:47:36.863100] [INFO] Recherche des photos sur disk
+[2015-06-27 15:47:36.863100] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:48:05.029373] [INFO] Recherche des photos sur disk
+[2015-06-27 15:48:05.045974] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:48:07.283986] [INFO] Recherche des photos sur disk
+[2015-06-27 15:48:07.284986] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:49:21.609525] [INFO] Recherche des photos sur disk
+[2015-06-27 15:49:21.610526] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:49:26.870385] [INFO] Recherche des photos sur disk
+[2015-06-27 15:49:26.870385] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:49:31.149216] [INFO] Recherche des photos sur disk
+[2015-06-27 15:49:31.149216] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:49:31.962228] [INFO] Recherche des photos sur disk
+[2015-06-27 15:49:31.962228] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:50:09.518744] [INFO] Recherche des photos sur disk
+[2015-06-27 15:50:09.518744] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:50:10.703963] [INFO] Recherche des photos sur disk
+[2015-06-27 15:50:10.704963] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:50:25.088737] [INFO] Recherche des photos sur disk
+[2015-06-27 15:50:25.089736] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:50:27.060978] [INFO] Recherche des photos sur disk
+[2015-06-27 15:50:27.061979] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:50:28.424190] [INFO] Recherche des photos sur disk
+[2015-06-27 15:50:28.424190] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:50:28.939594] [INFO] Recherche des photos sur disk
+[2015-06-27 15:50:28.939594] [INFO] Fin Recherche des photos sur disk
+[2015-06-27 15:50:29.764817] [INFO] Recherche des photos sur disk
+[2015-06-27 15:50:29.780417] [INFO] Fin Recherche des photos sur disk

@@ -1,0 +1,50 @@
+[2015-06-28 20:30:33.969208] [INFO] Logged in as admin
+[2015-06-28 20:30:43.892257] [INFO] 
+[2015-06-28 20:30:43.892257] [INFO] Start indexing pictures for user test
+[2015-06-28 20:30:43.892257] [INFO] Deleting old index for user test
+[2015-06-28 20:30:44.422658] [INFO] Deleting old index for user test OK !
+[2015-06-28 20:32:22.251684] [INFO] End indexing pictures for user test OK ! . Nb pictures indexed : 4998
+[2015-06-28 20:32:43.954957] [INFO] F:\SiteInternet\Xampp\htdocs\shared\sbinda\EPhoto2\php\requests\admin/../../users/test/test.csv
+[2015-06-28 20:32:43.955956] [INFO] 
+[2015-06-28 20:32:43.955956] [INFO] Start indexing pictures for user test
+[2015-06-28 20:32:43.955956] [INFO] Deleting old index for user test
+[2015-06-28 20:32:44.107758] [INFO] Deleting old index for user test OK !
+[2015-06-28 20:33:50.484889] [INFO] End indexing pictures for user test OK ! . Nb pictures indexed : 4998
+[2015-06-28 20:33:59.302723] [INFO] F:\SiteInternet\Xampp\htdocs\shared\sbinda\EPhoto2\php\requests\admin/../../../users/test/test.csv
+[2015-06-28 20:33:59.302723] [INFO] exists
+[2015-06-28 20:34:32.547043] [INFO] F:\SiteInternet\Xampp\htdocs\shared\sbinda\EPhoto2\php\requests\admin/../../../users/test/test.csv
+[2015-06-28 20:34:32.548043] [INFO] exists
+[2015-06-28 20:35:17.141042] [INFO] F:\SiteInternet\Xampp\htdocs\shared\sbinda\EPhoto2\php\requests\admin/../../../users/test/test.csv
+[2015-06-28 20:35:17.141042] [INFO] exists
+[2015-06-28 20:35:43.988956] [INFO] F:\SiteInternet\Xampp\htdocs\shared\sbinda\EPhoto2\php\requests\admin/../../../users/test/test.csv
+[2015-06-28 20:35:43.988956] [INFO] exists
+[2015-06-28 20:35:43.989957] [INFO] 
+[2015-06-28 20:35:43.989957] [INFO] Start indexing pictures for user test
+[2015-06-28 20:35:43.989957] [INFO] Deleting old index for user test
+[2015-06-28 20:35:44.152759] [INFO] Deleting old index for user test OK !
+[2015-06-28 20:36:50.042633] [INFO] End indexing pictures for user test OK ! . Nb pictures indexed : 4998
+[2015-06-28 20:38:28.804385] [INFO] F:\SiteInternet\Xampp\htdocs\shared\sbinda\EPhoto2\php\requests\admin/../../../users/test/test.csv
+[2015-06-28 20:38:28.805386] [INFO] exists
+[2015-06-28 20:38:28.805386] [INFO] Array
+(
+    [0] => Array
+        (
+            [0] => 1000;mille
+        )
+
+    [1] => Array
+        (
+            [0] => 2000;Deux-mille
+        )
+
+    [2] => Array
+        (
+            [0] => 3000;Trois-mille
+        )
+
+)
+
+[2015-06-28 20:38:28.805386] [INFO] Start indexing pictures for user test
+[2015-06-28 20:38:28.805386] [INFO] Deleting old index for user test
+[2015-06-28 20:38:28.940186] [INFO] Deleting old index for user test OK !
+[2015-06-28 20:39:36.466511] [INFO] End indexing pictures for user test OK ! . Nb pictures indexed : 4998

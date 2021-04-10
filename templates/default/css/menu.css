@@ -1,0 +1,19 @@
+#head-container span:hover a, #head-container span.selected a{
+	border-bottom: 1px solid #ff8b84;
+	color : Black;
+}
+
+#footer {
+	border-top: 1px solid #eaeaea;
+	background-color: White;
+	color: rgb(159, 159, 159);
+}
+
+#wrapper-mobile-menu {
+	background-color : White;
+	color : Black;
+}
+
+.gallery_access_title:hover {
+	color : #a8a8a8;
+}

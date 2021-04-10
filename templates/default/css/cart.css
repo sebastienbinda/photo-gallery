@@ -1,0 +1,22 @@
+#cartInfo {
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: white;
+	color: Black;
+}
+
+#cartInfo h1{
+	background-image : url(../img/cart.ico);
+	color : #ff8b84;
+}
+
+
+.total-label {
+	color: #1c94c4;
+}
+
+
+.cart-total-zone {
+	border: solid 2px #CDCDCD;
+	color : black;
+}

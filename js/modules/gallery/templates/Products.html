@@ -1,0 +1,19 @@
+<h2>{{labels.title}}</h2>
+<table id="userPrice" class="tablesorter">
+	<thead>
+		<tr>
+			<th>{{labels.tableNameColumnLabel}}</th>
+			<th>{{labels.tablePriceColumnLabel}}</th>
+			<th>{{labels.tableDescriptionColumnLabel}}</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each products}}
+		<tr>
+			<td>{{name}}</td>
+			<td>{{price}} {{../labels.money}}</td>
+			<td>{{{description}}}</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>

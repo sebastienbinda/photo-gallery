@@ -1,0 +1,29 @@
+<td>{{user.login}}</td>
+<td>{{user.password}}</td>
+<td class="user-description">{{user.description}}</td>
+{{#if isAdmin}}
+<td class="unused"></td>
+<td class="unused"></td>
+<td class="unused"></td>
+<td class="unused"></td>
+<td class="unused"></td>
+{{else}}
+<td>
+	<select>
+		{{#each user.products}}
+		<option>{{id}} - {{name}} - {{price}}</option>
+		{{/each}}
+	</select>
+</td>
+<td>{{allowdownloadlabel}}</td>
+<td>{{user.nb_pictures_by_page}}</td>
+<td>{{user.nb_products_min}}</td>
+<td>{{publicLabel}}</td>
+{{/if}}
+<td>
+	<div class="um-actions">
+		<button id="user-edit" title="{{labels.editaction}}"><i class="icon-edit"></i></button>
+		<button id="user-delete" title="{{labels.deleteaction}}"><i class="icon-trash"></i></button>
+		<button id="user-index" title="{{labels.deleteaction}}"><i class="icon-save"></i></button>
+	</div>
+</td>

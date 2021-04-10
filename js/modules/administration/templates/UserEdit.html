@@ -1,0 +1,115 @@
+<div id="user-edit">
+	<table>
+		<tr id="user-login">
+			<td class="label">{{labels.login}}</td>
+			<td class="value"><input type="text" id="login" value="{{user.login}}"></td>
+		</tr>
+		<tr id="user-password">
+			<td class="label">{{labels.password}}</td>
+			<td class="value"><input type="text" id="password" value="{{user.password}}"></td>
+		</tr>
+		<tr id="user-public">
+			<td class="label">{{labels.public}}</td>
+			<td class="value">
+				<select id="public">
+					<option value="0">{{labels.falseLabel}}</option>
+					<option value="1">{{labels.trueLabel}}</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="label">{{labels.description}}</td>
+			<td class="value"><input type="text" id="description" value="{{user.description}}"/></td>
+		</tr>
+		<tr>
+			<td class="label">{{labels.long_description}}</td>
+			<td class="value"><textarea id="long_description" rows="8" cols="150">{{user.long_description}}</textarea></td>
+		</tr>
+		<tr>
+			<td class="label"></td>
+			<td><button id="reset-long-description">{{labels.resetLongDescriptionButton}}</button>
+		</tr>
+		<tr id="user-products">
+			<td class="label">{{labels.products}}</td>
+			<td class="value">
+				<select multiple="multiple" id="user_products" name="users_products">
+					{{#each products}}
+						{{#if selected}}
+							<option selected="selected" value="{{id}}">{{id}} - {{name}} - {{price}}</option>
+						{{else}}
+							<option value="{{id}}">{{id}} - {{name}} - {{price}}</option>
+						{{/if}}
+					{{/each}}
+				</select>
+			</td>
+		</tr>
+		<tr id="user-allowdownload">
+			<td class="label">{{labels.allowdownload}}</td>
+			<td class="value">
+				<select id="allowdownload">
+					<option value="0">{{labels.falseLabel}}</option>
+					<option value="1">{{labels.trueLabel}}</option>
+				</select>
+			</td>
+		</tr>
+		<tr id="user-freeDownloadDir">
+			<td class="label">{{labels.freeDownloadDir}}</td>
+			<td class="value"><input type="text" id="freeDownloadDir" value="{{user.free_download_dir}}"></td>
+		</tr>
+		<tr id="user-nbpicturesbypage">
+			<td class="label">{{labels.nbPicturesByPage}}</td>
+			<td class="value"><input type="text" id="nbPicturesByPage" value="{{user.nb_pictures_by_page}}"></td>
+		</tr>
+		<tr id="user-nbproductsmin">
+			<td class="label">{{labels.nbProductsMin}}</td>
+			<td class="value"><input type="text" id="nbProductsMin" value="{{user.nb_products_min}}"></td>
+		</tr>
+		<tr id="user-section-display_mode">
+			<td class="label">{{labels.sectionDisplayMode}}</td>
+			<td class="value">
+				<select id="sectionDisplayMode">
+					<option value="0">{{labels.section_display_mode_0}}</option>
+					<option value="1">{{labels.section_display_mode_1}}</option>
+					<option value="2">{{labels.section_display_mode_2}}</option>
+				</select>
+			</td>
+		</tr>
+		<tr id="user-display-search-view">
+			<td class="label">{{labels.displaySearchView}}</td>
+			<td class="value">
+				<select id="displaySearchView">
+					<option value="0">{{labels.falseLabel}}</option>
+					<option value="1">{{labels.trueLabel}}</option>
+				</select>
+			</td>
+		</tr>
+		<tr id="user-search-infos-description">
+			<td class="label">{{labels.search_info_description}}</td>
+			<td class="value"><textarea id="searchInfosDescription" rows="4" cols="150">{{user.search_infos_description}}</textarea></td>
+		</tr>
+		<tr id="user-search-place-holder">
+			<td class="label">{{labels.search_placeholder}}</td>
+			<td class="value"><input type="text" id="searchPlaceHolder" value="{{user.search_placeholder}}"/></td>
+		</tr>
+		<tr id="user-search-default-tags">
+			<td class="label">{{{labels.default_search_tags}}}</td>
+			<td class="value"><input type="text" id="defaultSearchTags" value="{{user.default_search_tags}}"/></td>
+		</tr>
+		<tr id="user-section-info-description">
+			<td class="label">{{labels.section_info_description}}</td>
+			<td class="value"><textarea id="sectionInfoDescription" rows="8" cols="150">{{user.section_info_description}}</textarea></td>
+		</tr>
+		<tr id="user-display-picture-names">
+			<td class="label">{{labels.displayPictureNamesLabel}}</td>
+			<td class="value">
+				<select id="displayPictureNames">
+					<option value="0">{{labels.falseLabel}}</option>
+					<option value="1">{{labels.trueLabel}}</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+	<button id="save-user"><i class="fa fa-save">&nbsp;{{labels.saveButton}}</i></button>
+	<button id="cancel-user"><i class="fa fa-ban">&nbsp;{{labels.cancelButton}}</i></button>
+</div>
+<div id="loading" class="loading hidden">{{labels.loading}}</div>

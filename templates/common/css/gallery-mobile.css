@@ -1,0 +1,42 @@
+@media screen and (max-device-width: 780px) {
+	
+	#private-disconnect {
+		font-size : 2em;
+	}
+	.directory-name {
+		font-size : 2em;
+	}
+	.add-to-cart {
+		font-size : 1.2em !important;
+	}
+	
+	.closepicture {
+		display : none;
+	}
+	
+	.closepicture-mobile {
+		display: block;
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		width: 100px;
+		height: 100px;
+		background-color: transparent;
+		color : white;
+		boder : none;
+		cursor: pointer;
+	}
+	
+/* 	#prev-pic, #next-pic { */
+/* 		display : none !important; */
+/* 	}  */
+
+	.downloadButton {
+		display : none !important;
+	}
+	
+	#gallery-search {
+		font-size: 1.6em;
+	}
+}
+

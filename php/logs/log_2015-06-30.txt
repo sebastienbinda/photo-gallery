@@ -1,0 +1,12 @@
+[2015-06-30 21:09:48.062566] [INFO] Mail succesfuly sent to sebastienbinda@hotmail.com
+[2015-06-30 21:11:16.953072] [INFO] Mail succesfuly sent to sebastienbinda@hotmail.com
+[2015-06-30 21:16:25.681720] [INFO] before mail send
+[2015-06-30 21:16:26.353759] [INFO] mail end
+[2015-06-30 21:17:16.094825] [INFO] before mail send
+[2015-06-30 21:17:16.365039] [INFO] mail end
+[2015-06-30 21:17:50.398552] [INFO] before mail send
+[2015-06-30 21:17:50.460556] [INFO] mail end
+[2015-06-30 21:18:19.610579] [INFO] before mail send
+[2015-06-30 21:18:19.683583] [INFO] mail end
+[2015-06-30 21:19:44.111582] [INFO] before mail send
+[2015-06-30 21:19:44.178783] [INFO] mail end

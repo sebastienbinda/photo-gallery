@@ -1,0 +1,86 @@
+#loginbox {
+	display: block;
+	margin: 0px auto 0px auto;
+	color : #FFB273;
+	text-align: center;
+}
+
+.login-info {
+	font-size : 1.5em;
+	margin-right: 30px;
+}
+
+#loginbox .label {
+	text-align: center;
+	color : White;
+	font-size : 1.4em;
+}
+
+#loginbox .value{
+	width : 250px;
+	text-align: center;
+	font-size : 1.4em;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-bottom: 5px;
+	-moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -khtml-border-radius: 10px; /* KHTML */
+    border-radius: 10px; /* CSS3 */
+}
+	
+#loginbox input[type='button'] {
+	margin-top: 30px;
+	width: 250px;
+	margin-top : 10px;
+}
+
+.galleries-list {
+	  margin-top: 30px;
+}
+
+.galleries-info {
+	color : #FFB273;
+	font-size : 1.5em;
+}
+
+.gallery_access {
+	list-style: none;
+	line-height: 50px;
+}
+
+.gallery_access_title {
+	font-size: 1.5em;
+	padding: 20px 0px;
+	text-align: center;
+	margin-top : 80px;
+	margin-bottom : 80px;
+	border: 1px solid Black;
+	border-radius : 20px;
+	background-color : Grey;
+	margin : 20px 0px;
+	padding : 0px 5px;
+	 padding: 7px 15px;
+}
+
+.gallery_access_title:hover {
+	cursor : pointer;
+}
+
+.login-error {
+	display: inline-block;
+	width : 100%;
+	text-align: center;
+	color : Red;
+}
+
+#maintenance-info {
+	width : 250px;
+	overflow : hidden;
+	text-align: center;
+	font-size : 2em;
+	color : Red;
+	padding-top : 150px;
+	margin : auto;
+}

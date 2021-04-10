@@ -1,0 +1,45 @@
+{{#if directories}}
+	<hr id="seperate_bar">
+	<div class='selectioninfos'>{{{description}}}</div>
+	{{#if search}}
+	<div id='directory-search'>
+		<div id="search-infos"></div>
+		<input id="search-value" type="text"/>
+		<input id="section-search" type="button" value="{{labels.section_search}}"/>
+	</div>
+	{{/if}}
+	{{#if selectsearch}}
+	<div id='directory-search'>
+		<div id="search-infos"></div>
+		{{#if backButton}}
+		<input id="backSectionButton" type="button" value="{{labels.backSection}}"/>
+		{{/if}}
+		<select id="directories-list">
+			<option value="">{{labels.section_select}}</option>
+		</select>
+		<input id="section-select-search" type="button" value="{{labels.section_search}}"/>
+		{{#if backButton}}
+			<input id="section-reset" type="button" value="{{labels.section_reset}}">
+		{{/if}}
+	</div>
+	{{/if}}
+	{{#if folders}}
+	<div id="directories-zone">
+		{{#if backButton}}
+		<ul class="directories-list">
+			<li class="gallery-directory">
+				<div id="backSectionButton" class='back-section'>
+					<div class='directory-img'>
+						<img src='templates/common/img/back.png' width='80' height='80'>
+					</div>
+					<div class='directory-name'>
+						{{labels.backSection}}
+					</div>
+				</div>
+			</li>
+		</ul>
+		{{/if}}
+		<ul class="directories-list" id='dir-list'></ul>
+	</div>
+	{{/if}}	
+{{/if}}

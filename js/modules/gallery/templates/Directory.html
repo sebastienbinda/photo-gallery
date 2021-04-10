@@ -1,0 +1,15 @@
+
+<div class='directory-section'>
+	{{#if image}}
+	<div class='directory-img'>
+		<img src='{{directory.image}}' width='80' height='80'>
+	</div>
+	{{else}}
+	<div class='directory-img'>
+		<img src='templates/common/img/folder.png' width='80' height='80'>
+	</div>
+	{{/if}}
+	<div class='directory-name'>
+		{{directory.name}}
+	</div>
+</div>

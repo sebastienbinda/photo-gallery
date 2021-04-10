@@ -1,0 +1,45 @@
+<div id="cart">
+
+	<h1>{{labels.cartTitle}}</h1>
+	<div class="infos"><i class='icon-info-sign'></i>&nbsp;{{{labels.informations}}}</div>
+	<div id="information-zone"></div>
+	<table class="tablesorter">
+		<thead>
+			<tr>
+				<th class="picture-column">{{labels.itemname}}</th>
+				<th class="product-column">{{labels.productname}}</th>
+				<th class="price-column">{{labels.productprice}}</th>
+				<th class="quantity-column">{{labels.quantity}}</th>
+				<th class="total-price-column">{{labels.totalprice}}</th>
+				<th class="delete-column">{{labels.delete}}</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+	
+	<div class="cart-total-zone">
+		<div id="shipping-zone">
+			<span class="label">{{labels.shippingFee}} : </span>
+			<span class="value" id="shippingfee">{{shippingfee}}</span>
+			<span class="label">{{labels.money}}</span>
+		</div>
+		<div>
+			<span class="label">{{labels.totalprice}} : </span>
+			<span class="value" id="total">{{total}}</span>
+			<span class="label">{{labels.money}}</span>
+		</div>
+	</div>
+	
+	<div id="cart-buttons">
+		<div id="cart-buttons-left">
+			<button id="reset-cart">{{labels.resetbutton}}</button>
+			<button id="back-to-gallery">{{labels.backbutton}}</button>
+		</div>
+		<div id="cart-buttons-right">
+			<div id="paypal" class="hidden"></div>
+		</div>
+	</div>
+	<div id="cart-right-click-menu" class="hidden">{{labels.imagecopyright}}</div>
+</div>
+<div id="loading" class="loading hidden">{{labels.loading}}</div>

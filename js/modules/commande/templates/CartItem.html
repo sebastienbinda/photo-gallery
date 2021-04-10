@@ -1,0 +1,12 @@
+<td class="picture-column"><img src="{{imageLink}}"/></td>
+<td class="product-column">{{item.productName}}</td>
+<td class="price-column">{{item.productPrice}}</td>
+<td class="quantity-column">
+	{{#if displayQuantity}}
+	<button id="quantity-minus"><i class="icon-minus-sign"></i></button>&nbsp;<input id="select-quantity" type="text" value="{{item.quantity}}">&nbsp;<button id="quantity-plus"><i class="icon-plus-sign"></i></button>
+	{{else}}
+	{{item.quantity}}
+	{{/if}}
+</td>
+<td class="total-price-column">{{item.price}}</td>
+<td class="delete-column"><button id="delete-from-cart"><i class="icon-trash">&nbsp;{{labels.deletebutton}}</i></button></td>

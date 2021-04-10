@@ -1,0 +1,33 @@
+{{#if pictures}}
+	<h2 id="pictures-list-title">{{labels.title}}</h2>
+	<div id="pictures-zone">
+		<ul id="pictures-list" class="img-list"></ul>
+	</div>
+	
+	<button id='displayCartButton' >Afficher le panier</button><br/>
+	
+	
+	{{#if pager}}
+	<div id="pictures-pager">
+		<button class="pager-first-page" title="{{goto_first_page}}"><i class="icon-step-backward"></i></button>
+		<button class="pager-previous-page" title="{{goto_previous_page}}"><i class="icon-backward"></i></button>
+		<span class="pager-first-index">{{pager.page_first_index}}</span> 
+		<span>{{{pager.from_to}}}</span>
+		<span class="pager-last-index">{{pager.page_last_index}}</span> 
+		(<span class="pager-total-records">{{pager.total_records}}</span>)
+		<button class="pager-next-page" title="{{goto_next_page}}"><i class="icon-forward"></i></button>
+		<button class="pager-last-page" title="{{goto_last_page}}"><i class="icon-step-forward"></i></button>
+	</div>
+	{{/if}}
+	
+	<a href="#pictures-list-title" id="back-to-top" title="Back to Top">
+	</a>
+	
+	
+	
+{{else}}
+	<span>{{labels.noPicturesAvailables}}</span>
+	<ul id="pictures-list" class="img-list"></ul>
+	<div id="pictures-zone">
+	</div>
+{{/if}}

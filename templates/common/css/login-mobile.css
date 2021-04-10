@@ -1,0 +1,75 @@
+@media screen and (max-device-width: 780px) {
+	
+	#loginbox {
+		display: block;
+		margin: 0px auto 0px auto;
+	}
+
+	.login-info {
+		display : none;
+	}
+	
+	#loginbox .value{
+		width : 80%;
+		text-align: center;
+		margin-top : 20px;
+		font-size: 50px;
+	}
+	
+	#loginbox .label {
+		text-align: center;
+		font-size : 50px;
+	}
+	
+	#loginbox .login-private-access-title {
+		text-align: center;
+		font-size : 50px;
+	}
+	
+	#loginbox input[type='button'] {
+		margin-top: 30px;
+		width : 80%;
+		margin-top : 50px;
+		font-size : 40px;
+	}
+	
+	#private-access {
+		display : block;
+		width : 100%;
+		border : none !important;
+		margin-bottom : 0px;
+		margin-top : 0px;
+	}
+	
+	.galleries-info {
+		text-align : center;
+		font-size: 2em;
+	}
+	
+	#public-galleries {
+		display : block;
+		max-width: 100%;
+		width : 100%;
+		margin-left: 0px;
+		margin-bottom : 50px;
+	}
+	
+	#galleries-separation {
+		display : block ! important;
+		width: 30%;
+		margin-top: 50px;
+	}
+	
+	.gallery_access {
+		margin-top : 80px;
+		margin-bottom : 80px;
+	}
+	.gallery_access_title {
+		font-size: 1.4em;
+		padding: 20px 0px;
+		text-align: center;
+		display: block;
+	}
+	
+	
+}

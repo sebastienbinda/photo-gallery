@@ -1,0 +1,17 @@
+#head-container .navigation span , #head-container .navigation .link{
+	  color: rgb(255, 255, 255);
+	  font-family: Oswald;
+	  font-weight: bold;
+}
+
+#head-container .navigation span:hover a, #head-container .navigation span.selected a{
+	border-bottom: 2px solid White;
+	color : #a8a8a8;
+	font-family: "Oswald"!important;
+	font-weight: bold;
+	font-size : 16px;
+}
+
+#wrapper-mobile-menu {
+	background-color : #4d4d4d;
+}

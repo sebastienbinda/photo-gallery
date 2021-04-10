@@ -1,0 +1,30 @@
+<div id="fullsize-picture">
+	<div id="picture">
+		<div class="closepicture"><i class="icon-remove"></i></div>
+		<div id="img-loading" class='small-loading'>
+		<span class="second-color">{{labels.loadingTitle}}<br/></span>
+		{{labels.loading}}
+		</div>
+		<table>
+			<tr>
+				<td><button id="prev-pic"><i class="icon-chevron-left"></i></button></td>
+				<td class="full-size-image">
+					<img style='display:none;' src="{{imageLink}}"/><br>
+					<div class="full-image-copy-right-filter">&nbsp;</div>
+					<div class="next-pic-filter hidden"></div>
+					<div class="prev-pic-filter hidden"></div>
+					{{#if products}}
+					<button id="fullSizeAddToCart" class="add-to-cart full-size-button"><i class="icon-shopping-cart"></i>&nbsp{{labels.addtocartbutton}}</button>
+					{{/if}}
+		{{#if image.url_access}}
+			<a href="php/requests/user/getImage.php?type=download&id={{image.fullname}}" class='downloadButton full-size-button' target="_blank" download><i class="icon-download-alt"></i>&nbsp;{{labels.download}}</a>
+		{{/if}}
+		
+				</td>
+				<td><button id="next-pic"><i class="icon-chevron-right"></i></button></td>
+			</tr>
+		</table>
+	</div>
+	<div id="right-click-menu" class="hidden right-click-menu">{{labels.imagecopyright}}</div>
+</div>
+<div class="hidden closepicture-mobile"><i class="icon-remove icon-5x"></i></div>

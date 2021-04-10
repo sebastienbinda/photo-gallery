@@ -1,0 +1,54 @@
+<header>
+	<div id="head-container">
+		<div class="logo" >
+			<a href="{{configuration.main_site_link}}"><img src="templates/{{theme}}/img/logo_site.png"/></a>
+		</div>
+		<nav class="navigation">
+			<span class='selected'>
+				<a id='menu-main' class='link' href='{{configuration.private_access_link}}'>{{labels.privateAccessMenuLabel}}</a>
+			</span>
+			<span>
+				<a class='link' href='{{configuration.main_site_link}}'>{{labels.mainSiteAccessMenuLabel}}</a>
+			</span>
+		</nav>
+		<nav class="navigation-mobile">
+			<div class="bars-menu-mobile">
+				<span class="bar-menu-mobile bar-menu-mobile-1"></span>
+				<span class="bar-menu-mobile bar-menu-mobile-2"></span>
+				<span class="bar-menu-mobile bar-menu-mobile-3"></span>
+			</div>
+			<div class="close-menu-mobile">
+				<span class="bar-menu-mobile bar-close-menu-mobile-1"></span>
+				<span class="bar-menu-mobile bar-close-menu-mobile-2"></span>
+			</div>
+			<div class="menu-mobile-title">
+				<span>MENU</span>
+			</div>
+		</nav>
+	</div>
+</header>
+		
+<div id="wrapper">
+	<div id="content"></div>
+</div>
+
+<div id="wrapper-mobile-menu">
+	<div id="menu-content">
+		<div class="menu-content-line">
+			<a id='menu-main' href='{{configuration.private_access_link}}'>{{labels.privateAccessMenuLabel}}</a>
+		</div>
+		<div class="menu-content-line">
+			<a href='{{configuration.main_site_link}}'>{{labels.mainSiteAccessMenuLabel}}</a>
+		</div>
+	</div>
+</div>
+
+<div id="app-modal"></div>
+<div id="picture-modal"></div>
+<div id="picture-modal-container"></div>
+<div id="app-confirm"></div>
+<div id="summary-cart"></div>
+
+<div id="footer">
+	<div><p>{{{labels.footerMessage}}}</p></div>
+ </div>

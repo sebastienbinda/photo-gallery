@@ -1,0 +1,57 @@
+.second-color : {
+ 	color : #ffb7b7;
+ }
+
+ body {
+ 	background-color: #f8f8f8;
+ 	color : black;
+ }
+ 
+*::selection {
+	background: #ffb7b7;
+}
+*::-moz-selection {
+	background: #ffb7b7;
+}
+ 
+ h1 {
+	border-bottom: 1px solid #e1e1e1;
+	color : Black;
+ }
+ 
+ h2 {
+ 	color : Black;
+ }
+ 
+ #head-container {
+	background-color: White;
+	border-bottom: 1px solid #eaeaea;
+}
+
+#head-container a .logo{
+	color: #ff8b84 !important;
+}
+
+.small-loading {
+	background-color : #FFFFFF;
+	color : Black;
+}
+
+.loading {
+	background-color : #FFFFFF;
+	color : Black;
+}
+
+.custom-loading {
+	color : #ff8b84;
+}
+
+.loading-filter {
+	background : #D8D8D8;
+}
+
+.right-click-menu {
+    background-color: White;
+    border: 2px solid Black;
+    color : Black;
+}

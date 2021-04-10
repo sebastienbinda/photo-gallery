@@ -1,0 +1,45 @@
+#admin-zone {
+	overflow: hidden;
+	margin-bottom : 50px;
+}
+
+#admin-zone .label {
+	width: 250px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.adminInfo {
+	font-size: 1.3em;
+	margin-top : 10px;
+	margin-bottom: 15px;
+}
+
+#user-edit .label {
+	width : 200px;
+}
+
+#app-admin-users-view, #app-admin-products-view, #app-admin-orders-view {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.user-description {
+	width : 200px;
+}
+
+#description {
+	width : 250px;
+}
+
+.order_to_deliver {
+	background-color: Orange !important;
+}
+
+#searchPlaceHolder {
+	width : 300px;
+}
+
+#defaultSearchTags {
+	width : 300px;
+}
